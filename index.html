@@ -6,17 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Soundbox tomate</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
+    <header>
+        <div class="toolbar">
+            <div class="toolbar-title">🍅 Tomate soundbox 🍅</div>
+        </div>
+    </header>
     <div class="container">
         <audio id="pasmalnon" src="./assets/PasMalNon.mp3"></audio>
-        <button onclick="document.getElementById('pasmalnon').play()">Pas mal non ?</button>
-        <audio id="pasmalnon" src="./assets/PasMalNon.mp3"></audio>
-        <button onclick="document.getElementById('pasmalnon').play()">Pas mal non ?</button>
+        <button class="btn-play" onclick="document.getElementById('pasmalnon').play()">
+            <span class="text-truncate">Pas mal non ?</span>
+        </button>
+        <!--  -->
+        <audio id="image" src="./assets/uneImage.mp3"></audio>
+        <button class="btn-play" onclick="document.getElementById('image').play()">
+            <span class="text-truncate">C'était une image</span>
+        </button>
     </div>
 
     <script src="" async defer></script>
