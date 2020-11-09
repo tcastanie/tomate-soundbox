@@ -11,8 +11,8 @@ header {
     flex: 1 1 auto;
     max-width: 100%;
     position: relative;
-    background-color: #EF5350 !important;
-    border-color: #EF5350 !important;
+    background-color: #EF5350;
+    border-color: #EF5350;
 }
 
 .toolbar {
@@ -45,11 +45,12 @@ header {
     align-items: center;
     background-color: #f5f5f5;
     height: 36px;
-    min-width: 200px;
+    /* min-width: 250px; */
     width: calc(50% - 12px);
     max-width: 400px;
     padding: 0 16px;
     margin: 6px;
+    font-size: .875rem;
     font-weight: 600;
     will-change: box-shadow;
     cursor: pointer;
