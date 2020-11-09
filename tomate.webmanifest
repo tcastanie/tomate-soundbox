@@ -29,6 +29,6 @@
         }
     ],
     "theme_color": "#EF5350",
-    "background_color": "#EF5350",
-    "display": "standalone"
+    "background_color": "#FFFFFF",
+    "display": "fullscreen"
 }
