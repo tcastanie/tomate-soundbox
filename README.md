@@ -1,4 +1,8 @@
-# tomate-soundbox
+# 🍅 Tomate Soundbox
+
+Petite application permettant de briller lors de rendez-vous mondains, en dégainant son portable au moment propice pour envoyer un lourd son en adéquation avec la situation. 
+
+Appli développée avec **Vue.js** et **Vuetify**, pour expérimenter le développement **PWA**.
 
 ## Project setup
 ```
