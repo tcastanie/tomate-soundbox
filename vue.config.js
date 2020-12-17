@@ -12,9 +12,5 @@ module.exports = {
         iconPaths: {
             appleTouchIcon: 'img/icons/apple-touch-icon.png',
         },
-        workboxPluginMode: 'InjectManifest',
-        workboxOptions: {
-            swSrc: 'src/service-worker.js'
-        },
     }
 }
