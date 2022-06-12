@@ -8,7 +8,7 @@
 
 <script>
 export default {
-    name: "Sbutton",
+    name: "s-button",
     props: ["name", "desc", "playing"],
     data: () => ({
         btnPause: false,
@@ -29,7 +29,7 @@ export default {
                         this.$emit("stopped", this.name);
                         clearInterval(soundPlaying);
                     }
-                }, 250);
+                }, 200);
             } else {
                 this.audio.pause();
                 this.btnPause = false;

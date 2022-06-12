@@ -18,7 +18,7 @@
             <v-container>
                 <v-row>
                     <v-col sm="6" md="4" v-for="s in sounds" :key="s.name">
-                        <Sbutton v-bind="s" @playing="playSound" @stopped="endSound" @time="updateBar"></Sbutton>
+                        <sButton v-bind="s" @playing="playSound" @stopped="endSound" @time="updateBar"></sButton>
                     </v-col>
                 </v-row>
             </v-container>
@@ -27,11 +27,11 @@
 </template>
 
 <script>
-import Sbutton from "./components/Sbutton.vue";
+import sButton from "./components/s-button.vue";
 export default {
     name: "App",
     components: {
-        Sbutton,
+        sButton,
     },
     data: () => ({
         progression: 0,

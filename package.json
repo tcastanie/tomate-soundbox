@@ -1,6 +1,6 @@
 {
   "name": "tomate-soundbox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,19 +10,19 @@
   "dependencies": {
     "core-js": "3.22.8",
     "register-service-worker": "1.7.2",
-    "vue": "2.6.14",
+    "vue": "^2.6.14",
     "vuetify": "2.6.6"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "4.5.17",
-    "@vue/cli-plugin-eslint": "4.5.17",
-    "@vue/cli-plugin-pwa": "4.5.17",
-    "@vue/cli-service": "4.5.17",
-    "babel-eslint": "10.1.0",
-    "eslint": "6.8.0",
-    "eslint-plugin-vue": "6.2.2",
-    "sass": "1.52.3",
-    "sass-loader": "8.0.2",
+    "@vue/cli-plugin-babel": "5.0.4",
+    "@vue/cli-plugin-eslint": "5.0.4",
+    "@vue/cli-plugin-pwa": "5.0.4",
+    "@vue/cli-service": "5.0.4",
+    "@babel/eslint-parser": "7.18.2",
+    "eslint": "8.17.0",
+    "eslint-plugin-vue": "9.1.1",
+    "sass": "~1.32.6",
+    "sass-loader": "13.0.0",
     "vue-cli-plugin-vuetify": "2.5.1",
     "vue-template-compiler": "2.6.14",
     "vuetify-loader": "1.7.3"
