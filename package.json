@@ -19,7 +19,7 @@
     "@vue/cli-plugin-pwa": "5.0.6",
     "@vue/cli-service": "5.0.6",
     "@babel/eslint-parser": "7.18.2",
-    "eslint": "8.18.0",
+    "eslint": "8.19.0",
     "eslint-plugin-vue": "9.1.1",
     "sass": "1.53.0",
     "sass-loader": "13.0.2",
