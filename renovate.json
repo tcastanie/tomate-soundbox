@@ -5,8 +5,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "extends": ["schedule:monthly"]
+      "automerge": true
     }
   ]
 }
